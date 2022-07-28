@@ -1,7 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+
 .App {
   text-align: center;
+  font-family: 'Source Code Pro', monospace;
 }
-
+.title{
+  font-family: 'Source Code Pro', monospace;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -14,7 +19,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #010102;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -35,4 +40,55 @@
   to {
     transform: rotate(360deg);
   }
+}
+.back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  font-size: 60px;
+  cursor: pointer;
+  color: #9041ff;
+  background: #b9f86d;
+  border-radius: 20px;
+  border: none;
+}
+
+.back-to-top:hover {
+  background: #ab6fff;
+  color: #b9f86d;
+}
+
+#hybrid {
+  visibility: hidden;
+}
+
+#theme-toggle {
+  visibility: hidden;
+}
+#theme-toggle + label {
+  content: '';
+  display: inline-block;
+  cursor: pointer;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  transition: all 0.3s ease-in-out;
+}
+
+#theme-toggle:checked + label {
+  background: linear-gradient(to bottom right, rgb(103, 204, 92), rgb(22, 125, 193));
+}
+
+#theme-toggle:not(:checked) + label {
+  background-color: transparent;
+  box-shadow: inset -10px -13px 0px 0px #7C3AED;
+}
+
+.container{
+  position: sticky;
+  margin-top: 6px;
+  margin-bottom: 15px;
+  margin-left: 20%;
+  left: 800px;
+  justify-content: flex-start;
 }
