@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/Contest_Time_Table/static/css/main.4e3883a3.css",
+    "main.js": "/Contest_Time_Table/static/js/main.e90cba51.js",
+    "static/js/787.baa6dbd2.chunk.js": "/Contest_Time_Table/static/js/787.baa6dbd2.chunk.js",
+    "static/media/leet_code.png": "/Contest_Time_Table/static/media/leet_code.2050802f6b3229e506da.png",
+    "static/media/hacker_rank.png": "/Contest_Time_Table/static/media/hacker_rank.9ea76b853c49ca3a22d7.png",
+    "static/media/cs_academy.png": "/Contest_Time_Table/static/media/cs_academy.bfbd413721bcfa518fda.png",
+    "static/media/at_coder.png": "/Contest_Time_Table/static/media/at_coder.5b0f0c7fdfecf978742c.png",
+    "static/media/icon.png": "/Contest_Time_Table/static/media/icon.5deff900d18e7f2358b6.png",
+    "static/media/kick_start.png": "/Contest_Time_Table/static/media/kick_start.cc5bdd8322869264c738.png",
+    "index.html": "/Contest_Time_Table/index.html",
+    "main.4e3883a3.css.map": "/Contest_Time_Table/static/css/main.4e3883a3.css.map",
+    "main.e90cba51.js.map": "/Contest_Time_Table/static/js/main.e90cba51.js.map",
+    "787.baa6dbd2.chunk.js.map": "/Contest_Time_Table/static/js/787.baa6dbd2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4e3883a3.css",
+    "static/js/main.e90cba51.js"
+  ]
+}
